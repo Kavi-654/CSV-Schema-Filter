@@ -1,0 +1,27 @@
+{
+    "input": {
+        "rows": 2500,
+        "columns": 13
+    },
+    "schema": {
+        "expected_columns": 11
+    },
+    "columns": {
+        "present": 10,
+        "missing": 1,
+        "unexpected": 3,
+        "unexpected_columns": [
+            "Customer_Segement",
+            "Discount_Applied",
+            "Size"
+        ]
+    },
+    "types": {
+        "valid": 9,
+        "mismatches": 1
+    },
+    "output": {
+        "rows": 2500,
+        "columns": 10
+    }
+}
